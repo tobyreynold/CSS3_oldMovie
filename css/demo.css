@@ -246,23 +246,23 @@
     transform: translate(-10%, 10%);
   }
 }
-blink {
-  background: url(http://placekitten.com/g/600/600);
+.blink {
+  background: url(../img/cat.jpeg);
   display: block;
   height: 600px;
   position: relative;
   width: 600px;
   overflow: hidden;
 }
-blink > * {
+.blink > * {
   z-index: 2;
 }
-blink:after {
+.blink:after {
   -webkit-animation: grain 5s steps(10) infinite;
   -moz-animation: grain 5s steps(10) infinite;
   -ms-animation: grain 5s steps(10) infinite;
   animation: grain 5s steps(10) infinite;
-  background: url(http://cl.ly/image/2m2R0A3m1b3x/noise.png);
+  background: url(../img/noise.png);
   content: "";
   display: block;
   height: 300%;
@@ -272,7 +272,7 @@ blink:after {
   width: 300%;
   z-index: 1;
 }
-blink b {
+.blink b {
   color: #fff;
   display: block;
   font-family: sans-serif;
